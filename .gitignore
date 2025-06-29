@@ -2,14 +2,16 @@
 *.log
 *.env
 *.jar
-mercury/immich/postgres
-mercury/pi-hole/etc-pihole
 **/db/
-*.Class
-mercury/jellyseerr/config
 **/cache/
-mercury/mc_fabric/
+
+*/immich/postgres
+*/pi-hole/etc-pihole
+*/jellyseerr/config
+*/mc_fabric/
 */speedtest/*
+
 !*/speedtest/*.yaml
+!*/mc_fabric/server.properties
 
 
