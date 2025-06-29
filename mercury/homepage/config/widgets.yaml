@@ -1,0 +1,42 @@
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/info-widgets/
+
+- logo:
+
+- greeting:
+    text_size: 2xl
+    text: " "
+
+- glances:
+    url: {{HOMEPAGE_VAR_SATURN_GLANCES_URL}}
+    label: saturn
+    version: 4
+    cpu: false
+    mem: false
+    cputemp: true
+    uptime: true
+    disk:
+      - /rootfs/meia
+      - /rootfs
+
+- greeting:
+    text_size: 4xl
+    text: "  "
+
+- glances:
+    url: {{HOMEPAGE_VAR_MERCURY_GLANCES_URL}}
+    label: mercury
+    version: 4
+    cpu: false
+    mem: false
+    cputemp: true
+    uptime: true
+    disk:
+      - /immich_lib
+      - /etc/hosts
+
+- datetime:
+    text_size: md
+    format:
+      timeStyle: short
+      hour12: true
