@@ -1,0 +1,10 @@
+*.gz
+*.log
+*.env
+*.jar
+mercury/immich/postgres
+mercury/pi-hole/etc-pihole
+**/db/
+*.Class
+mercury/jellyseerr/config
+
