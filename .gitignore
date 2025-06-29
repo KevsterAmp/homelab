@@ -8,7 +8,7 @@
 */immich/postgres
 */pi-hole/etc-pihole
 */jellyseerr/config
-*/mc_fabric/
+*/mc_fabric/*
 */speedtest/*
 
 !*/speedtest/*.yaml
