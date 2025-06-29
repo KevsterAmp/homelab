@@ -7,4 +7,9 @@ mercury/pi-hole/etc-pihole
 **/db/
 *.Class
 mercury/jellyseerr/config
+**/cache/
+mercury/mc_fabric/
+*/speedtest/*
+!*/speedtest/*.yaml
+
 
