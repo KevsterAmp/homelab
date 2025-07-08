@@ -10,3 +10,4 @@ services:
       - /mnt/data:/immich_lib
     environment:
       - "GLANCES_OPT=-w"
+    restart: unless-stopped
