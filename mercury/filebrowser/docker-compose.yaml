@@ -1,0 +1,13 @@
+name: filebrowser
+
+services:
+  filebrowser:
+    container_name: filebrowser
+    image: filebrowser/filebrowser
+    volumes:
+      - /mnt/data/filebrowser/srv:/srv
+      - /mnt/data/filebrowser/database:/database
+      - ./config:/config
+    ports:
+      - 8083:80
+    restart: unless-stopped

@@ -93,7 +93,7 @@
     - qBittorrent:
         icon: qbittorrent.png
         # prettier-ignore
-        href: {{HOMEPAGE_VAR_QBITT_DOMAIN}}
+        href: "{{HOMEPAGE_VAR_QBITT_DOMAIN}}/"
         description: BitTorrent Downloader
         widget:
           type: qbittorrent
@@ -163,6 +163,10 @@
             # prettier-ignore
             href: "{{HOMEPAGE_VAR_TAILSCALE_URL}}/admin"
             description: VPN for access outside local network
+        - FileBrowser:
+            icon: filebrowser.png
+            # prettier-ignore
+            href: "{{HOMEPAGE_VAR_FILEBROWSER_URL}}"
         - Kev's Self-hosted Server:
             icon: minecraft.png
             widget:
